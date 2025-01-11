@@ -1,0 +1,135 @@
+/* pc */
+@media (min-width: 46.25em)  {
+    .mobile-menu-btn .menu-icon  {
+        display: none;
+    }
+}
+
+/* tablet & mobile */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .place-buy-btn {
+        padding: 12px 20px;
+    }
+
+    .from-submit-btn {
+        padding: 12px 20px;
+    }
+
+    .social a {
+        font-size: 32px;
+        margin: 0px 12px;
+    }
+
+    .footer.footer-content,a {
+        padding: 12px 0px;
+        font-size: 24px;
+    }
+ 
+
+}
+
+/* mobile */
+@media (max-width: 46.1875em) {
+.s-full-width {
+    width: 100%;
+}
+
+    .col-third {
+        width: 100%;
+    }
+
+    .col {
+        padding: 8px 10px;
+    }
+
+    .col-half {
+        width: 100%;
+    }
+
+    .s-mt-top-8 {
+        margin-top: -8px;
+    }
+
+    .s-mt-top-14 {
+        margin-top: -14px;
+    }
+
+    .contact-from {
+        margin-top: 16px;
+    }
+
+    .member-item {
+        margin-top: 30px;
+    }
+    
+    .nav > li {
+        display: block;
+    }
+
+    .header {
+        overflow: hidden;
+        }
+
+    .search-button  {
+        display: none;
+    }
+        
+    .header  .mobile-menu-btn:hover .menu-icon {
+        color: #000;
+    }
+
+    .mobile-menu-btn:hover {
+        background-color: #ccc;
+    }
+    
+    .nav {
+        display: block;
+    }
+
+    .nav > li {
+        display: block;
+    }
+
+    .nav > li:first-child {
+        display: inline-block;
+    }
+
+    .nav .subnav {
+        background-color: #fff;
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+        display: none;
+        position: initial;
+    }
+
+    .text-content {
+        color: #fff;
+        position: absolute;
+        bottom: 29px;
+        width: 100%;
+        text-align: center;
+        }
+
+    .text-heading {
+        font-size: 18px;
+        font-weight: 1000;
+        text-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+        }
+
+     .text-description {
+        margin-top: 11px;
+        font-size: 14px;
+        font-weight: 1000;
+        text-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+        }
+
+        .content .member-img {
+            width: 50%;
+        }   
+
+        .place-buy-btn {
+            width: 100%;
+            text-align: center;
+        }
+  
+}
+
